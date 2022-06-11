@@ -1,0 +1,98 @@
+
+nav {
+
+    margin-top: 30px;
+}
+.mt-4{
+    margin-top: 800px ;
+    
+}
+
+nav ul li {
+
+    display: inline;
+    text-decoration: none;
+  
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 15px;
+}
+
+nav ul li a:hover {
+
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 18px;
+    background-color: deeppink;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+#accion {
+    background-color: deeppink;
+    border-radius: 10px;
+    color: white;
+}
+
+#adminNav ul li {
+
+    display: inline;
+    text-decoration: none;
+}
+
+#adminNav  ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+#header {
+
+    max-height: 120px;
+}
+
+.tarjeta {
+
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+#nombreCliente {
+    background-color: #c8d6e5;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font: oblique bold 120% cursive;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
